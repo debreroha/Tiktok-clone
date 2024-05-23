@@ -5,7 +5,7 @@ import "./App.css";
 
 function App() {
   const [videos, setVideos] = useState([]);
-
+  // useEffect hook
   useEffect(() => {
     db.collection("videos").onSnapshot((snapshot) =>
       setVideos(snapshot.docs.map((doc) => doc.data()))
