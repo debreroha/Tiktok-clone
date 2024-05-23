@@ -5,6 +5,8 @@ import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import MessageIcon from "@material-ui/icons/Message";
 import ShareIcon from "@material-ui/icons/Share";
 
+
+// videosidebar 
 function VideoSidebar({ likes, shares, messages }) {
   const [liked, setLiked] = useState(false);
 
