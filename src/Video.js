@@ -19,6 +19,7 @@ function Video({ url, channel, description, song, likes, messages, shares }) {
     }
   };
 
+  // return part
   return (
     <div className="video">
       <video
