@@ -3,6 +3,7 @@ import "./VideoFooter.css";
 import MusicNoteIcon from "@material-ui/icons/MusicNote";
 import Ticker from "react-ticker";
 
+// videofooter component
 function VideoFooter({ channel, description, song }) {
   return (
     <div className="videoFooter">
