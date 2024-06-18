@@ -8,6 +8,7 @@ function Video({ url, channel, description, song, likes, messages, shares }) {
   const [playing, setPlaying] = useState(false);
   const videoRef = useRef(null);
 
+  // on video press
   const onVideoPress = () => {
     if (playing) {
       videoRef.current.pause();
