@@ -3,6 +3,7 @@ import Video from "./Video";
 import db from "./firebase";
 import "./App.css";
 
+// app component
 function App() {
   const [videos, setVideos] = useState([]);
   // useEffect hook
